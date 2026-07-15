@@ -52,7 +52,9 @@ For the program counter and controller, I drove synthesis and place-and-route in
 - Functional Kogge-Stone ALU, verified in simulation
 
 ## Reflection
-This project sharpened my preference for manual layout specifically — the Kogge-Stone ALU took the most iteration, and I found the process of tracing a speedpath back to a transistor sizing decision more satisfying than the automated APR steps, even though both were necessary. Going forward, I want to get faster at manual floorplanning for larger blocks while keeping the same level of area discipline.
+At the start of this project, translating a schematic into a working layout felt abstract — I couldn't yet see how the two proved functionality together. That changed fastest around transistor sizing: when I ran SpeedPath on the register file, I sized its buffers and drivers based on the estimated capacitance of a single master-slave chain, without enough margin. Because every block in the datapath has to interface with its neighbors, that early sizing decision became a hard constraint on the ALU and shifter that followed — it capped the speed of the rest of the datapath in a way that wasn't obvious from simulating that block in isolation.
+ 
+**What I'd do differently:** Size the register file's drivers with more margin up front, even at some area cost, rather than optimizing tightly for just that block — a few extra microns early would have bought real speed across the whole datapath later. That lesson, plus getting comfortable enough with APR to actually enjoy the optimization flow, has me looking forward to working on more custom layout blocks going forward.
 
 ---
 [← Back to main portfolio](../README.md)
