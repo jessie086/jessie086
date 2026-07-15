@@ -71,13 +71,13 @@ TODO: look up what certificiates i could do to strengthen myself as a candidate
  
 *[Guidance: 1-2 sentence hook per project + link to its dedicated page. Order by relevance to layout/APR — RISC-V first.]*
  
-### 🔧 [RISC-V Processor — Layout & APR](link)
+### 🔧 [RISC-V Processor — Layout & APR](https://github.com/jessie086/RISC-V-Processor-Layout-APR-Design.git)
 Two-stage pipelined RISC-V datapath, hand-floorplanned in Cadence with a Kogge-Stone ALU and hierarchical APR flow. Closed timing with zero setup/hold violations at 90% core density.
-**[View project →](link)**
+**[View project →](https://github.com/jessie086/RISC-V-Processor-Layout-APR-Design.git)**
  
 ### 📡 [NASA SunRISE Ground Station — Electrical Lead](link)
 Leading a 10-person team building ground-based radio antenna arrays to detect solar bursts ahead of space-weather events threatening NASA hardware.
-**[View project →](link)**
+**[View project →](https://github.com/jessie086/16x16multiplier.git)**
  
 ### 🔋 [Solar Car BMS Protection Circuit](link)
 Designed and validated a reverse-polarity/overcurrent protection circuit now standard across the team's PCBs — <1W added dissipation.
