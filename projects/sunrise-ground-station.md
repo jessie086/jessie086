@@ -54,4 +54,4 @@ Grew the electrical subteam from 5 to 10 engineers over the past year and a half
 *Draft:* Leading this subteam taught me as much about technical communication as it did about RF systems — writing documentation that a high schooler with zero background could follow forced me to actually understand *why* each step mattered, not just that it worked. It's also given me a much better sense of how individual hardware pieces (GPS timing, antenna calibration, interferometry) fit into a much larger mission-level goal.
 
 ---
-[← Back to main portfolio](README.md)
+[← Back to main portfolio](../README.md)
