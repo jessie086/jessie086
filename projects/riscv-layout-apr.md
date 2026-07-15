@@ -44,7 +44,7 @@ Using HSPICE, I ran speedpath analysis across the ALU to identify the critical p
 *[Sketch: floorplan sketch of PC/controller block, or a diagram of your I/O pin placement strategy]*
 For the program counter and controller, I drove synthesis and place-and-route in Cadence Innovus, writing and editing .tcl scripts to control the flow. I planned I/O pin placement to minimize wire crossings, achieved 90% core density, and closed timing with **zero setup/hold violations** post-route.
 
-*This project also includes a 16×16 multiplier built with a hierarchical APR flow — [see it as its own project →](project_multiplier.md)*
+*This project also includes a 16×16 multiplier built with a hierarchical APR flow — [see it as its own project →](/projects/multiplier-hierarchical-apr.md)*
 
 ## Results
 
