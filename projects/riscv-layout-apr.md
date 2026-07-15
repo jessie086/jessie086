@@ -1,5 +1,5 @@
 # RISC-V Processor — Layout & APR Design
-*EECS 427: VLSI Design · Jan 2026 – Present · Team of 6*
+*EECS 427: VLSI Design · Jan 2026 – Apr 2026 · Team of 6*
 
 ## Objective
 
