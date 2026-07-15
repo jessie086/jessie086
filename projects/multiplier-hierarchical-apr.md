@@ -23,7 +23,6 @@ Built a 16×16 multiplier combining a systolic array architecture with Wallace-t
 
 ## Design Process
 
-*[NDA note for yourself — remove before publishing: use hand sketches of the systolic array structure/hierarchy instead of tool screenshots, same approach as the RISC-V page.]*
 
 **1. Architecture Selection**
 *[Sketch: systolic array + Wallace-tree structure diagram]*
