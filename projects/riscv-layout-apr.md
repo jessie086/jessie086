@@ -26,8 +26,6 @@ This was my first deep dive into the area/timing/power tradeoff that hand layout
 
 ## Design Process
 
-*[NDA note for yourself, remove before publishing: since the TSMC PDK and Cadence layouts are under university/foundry NDA, use hand-drawn or iPad floorplan sketches instead of tool screenshots. This is completely normal in VLSI portfolios — sketching the floorplan logic yourself actually demonstrates understanding better than a raw screenshot would.]*
-
 **1. Architecture & Datapath Planning**
 *[Sketch: block diagram of the two-stage pipeline — register file, ALU, shifter, PC, control unit]*
 Before any layout work, I mapped out the datapath at a block level to understand how data would flow through the two pipeline stages and where the critical timing path was likely to live.
