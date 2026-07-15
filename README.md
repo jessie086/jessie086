@@ -11,15 +11,15 @@ Rising senior in Electrical Engineering at the University of Michigan, pursuing 
 ## Skills
 | Skill                                         | Associated Project         |
 |-----------------------------------------------|----------------------------|
-| Manual layout & floorplanning (stick diagrams)| <a href="https://google.com">RISC-V Processor Design</a>|
-| Place & Route (Cadence Innovus, .tcl scripting)| <a href="https://google.com">RISC-V Processor Design</a>|
-| DRC/LVS verification         | RISC-V Processor Design|
-| Transistor sizing & speedpath analysis (HSPICE)      | RISC-V Processor Design|
-| Hierarchical APR (black-boxed modules)                   | 16×16 Multiplier — Systolic Array|
-| Analog/digital circuit design & PCB layout (Altium) | Solar Car BMS Protection Circuit |
-| RF/antenna systems & signal integrity | NASA SunRISE Ground Station |
-| Embedded controls (I2C, PWM, interrupt-driven CAN) | Sartorius Incucyte / EECS 461 Cruise Control |
-| Team & project leadership | NASA SunRISE Ground Station |
+| Manual layout & floorplanning (stick diagrams)| <a href="projects/riscv-layout-apr.md">RISC-V Processor Design</a>|
+| Place & Route (Cadence Innovus, .tcl scripting)| <a href="projects/riscv-layout-apr.md">RISC-V Processor Design</a>|
+| DRC/LVS verification | <a href="projects/riscv-layout-apr.md">RISC-V Processor Design</a>|
+| Transistor sizing & speedpath analysis (HSPICE) | <a href="projects/riscv-layout-apr.md">RISC-V Processor Design</a>|
+| Hierarchical APR (black-boxed modules) | <a href="projects/multiplier-hierarchical-apr.md">16×16 Multiplier — Systolic Array</a>|
+| Analog/digital circuit design & PCB layout (Altium) | <a href="projects/bms-protection-circuit.md">Solar Car BMS Protection Circuit</a> |
+| RF/antenna systems & signal integrity | <a href="projects/sunrise-ground-station.md">NASA SunRISE Ground Station</a> |
+| Embedded controls (I2C, PWM, interrupt-driven CAN) |  <a href="projects/sartorius-incucyte-redesign.md">Sartorius Incucyte</a> / EECS 461 Cruise Control |
+| Team & project leadership | <a href="projects/sunrise-ground-station.md">NASA SunRISE Ground Station</a> |
 
 
 ## Tools
@@ -63,31 +63,31 @@ Data Structures & Algorithms (EECS 281) · Computer Organization (EECS 370)
 TODO: look up what certificiates i could do to strengthen myself as a candidate
 
 ## Featured Projects
- 
-*[Guidance: 1-2 sentence hook per project + link to its dedicated page. Order by relevance to layout/APR — RISC-V first.]*
- 
-### 🔧 [RISC-V Processor — Layout & APR](https://github.com/jessie086/RISC-V-Processor-Layout-APR-Design.git)
+
+### 🔧 [RISC-V Processor — Layout & APR](projects/riscv-layout-apr.md)
 Two-stage pipelined RISC-V datapath, hand-floorplanned in Cadence with a Kogge-Stone ALU and hierarchical APR flow. Closed timing with zero setup/hold violations at 90% core density.
-**[View project →](https://github.com/jessie086/RISC-V-Processor-Layout-APR-Design.git)**
- 
+**[View project →](projects/riscv-layout-apr.md)**
+
+### 🧮 [16×16 Multiplier — Hierarchical APR](projects/multiplier-hierarchical-apr.md)
+Systolic array multiplier with Wallace-tree compression, implemented through a hierarchical APR flow with black-boxed sub-modules — verified with DRC/LVS.
+**[View project →](projects/multiplier-hierarchical-apr.md)**
+
 ### 📡 [NASA SunRISE Ground Station — Electrical Lead](link)
 Leading a 10-person team building ground-based radio antenna arrays to detect solar bursts ahead of space-weather events threatening NASA hardware.
-**[View project →](https://github.com/jessie086/16x16multiplier.git)**
- 
-### 🔋 [Solar Car BMS Protection Circuit](link)
-Designed and validated a reverse-polarity/overcurrent protection circuit now standard across the team's PCBs — <1W added dissipation.
 **[View project →](link)**
+ 
+### 🔋 [Solar Car BMS Protection Circuit](projects/bms-protection-circuit.md)
+Designed and validated a reverse-polarity/overcurrent protection circuit now standard across the team's PCBs — <1W added dissipation.
+**[View project →](projects/bms-protection-circuit.md)**
  
 ### 🧫 [Sartorius Incucyte Redesign](link)
 Contributing to sensor/controls design for a live-cell imaging incubator requiring tight temperature and humidity control.
-**[View project →](link)**
+**[View project →](projects/sartorius-incucyte-redesign.md)**
  
 ### 🚗 [EECS 461 — Embedded Cruise Control](link)
 PI closed-loop controller with CAN bus communication, built and validated in MATLAB/Simulink + hardware bench testing.
 **[View project →](link)**
- 
-[Consider cutting to your top 3-4 if the page feels long — quality over completeness]
- 
+
 ---
  
 ## Education
