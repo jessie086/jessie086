@@ -1,6 +1,6 @@
 ## Hi, I'm Jia-Yu Chen 👋
-<a href="https://linkedin.com/in/jchen00"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" />   
-<a href="mailto:jessich@umich.edu"><img src="https://img.shields.io/badge/-email-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /> 
+<a href="https://linkedin.com/in/jchen00"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="mailto:jessich@umich.edu"><img src="https://img.shields.io/badge/-email-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 <a href="mailto:jessich@umich.edu"><img src="https://img.shields.io/badge/-resume-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" />    
 
 EE undergrad building toward VLSI physical design — from hand-floorplanned RISC-V datapaths to a NASA ground station listening for solar storms.
