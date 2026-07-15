@@ -5,7 +5,7 @@
 
 Designed and physically implemented a two-stage pipelined RISC-V processor — register file, ALU, barrel/log shifter, program counter, and control unit — from schematic through fabricatable layout, using the TSMC standard-cell library in Cadence. My focus areas were **manual layout of the ALU** (built around a Kogge-Stone adder for speed) and **automated place-and-route** for the PC and control unit, closing timing with zero setup/hold violations at 90% core density.
 
-*[Optional: 1 line on why this project matters to you — e.g. "This was my first deep dive into the area/timing/power tradeoff that hand layout lives in, and it's what convinced me I want to do this professionally."]*
+This was my first deep dive into the area/timing/power tradeoff that hand layout lives in, and it's what convinced me I want to do this professionally.
 
 ## Skills Learned
 
