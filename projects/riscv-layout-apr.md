@@ -52,10 +52,7 @@ For the program counter and controller, I drove synthesis and place-and-route in
 - Functional Kogge-Stone ALU, verified in simulation
 
 ## Reflection
-
-*[Optional but recommended — 2-3 sentences. Recruiters like seeing that you can self-evaluate. Draft below, edit freely:]*
-
-*Draft:* This project sharpened my preference for manual layout specifically — the Kogge-Stone ALU took the most iteration, and I found the process of tracing a speedpath back to a transistor sizing decision more satisfying than the automated APR steps, even though both were necessary. Going forward, I want to get faster at manual floorplanning for larger blocks while keeping the same level of area discipline.
+This project sharpened my preference for manual layout specifically — the Kogge-Stone ALU took the most iteration, and I found the process of tracing a speedpath back to a transistor sizing decision more satisfying than the automated APR steps, even though both were necessary. Going forward, I want to get faster at manual floorplanning for larger blocks while keeping the same level of area discipline.
 
 ---
 [← Back to main portfolio](../README.md)
