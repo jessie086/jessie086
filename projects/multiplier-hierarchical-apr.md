@@ -1,5 +1,5 @@
 # 16×16 Multiplier — Hierarchical APR
-*EECS 427: VLSI Design · Jan 2026 – Present · Team of 6*
+*EECS 427: VLSI Design · Jan 2026 – Apr 2026 · Team of 6*
 
 *RTL implementation by a teammate; I owned floorplanning, hierarchical APR, and DRC/LVS verification. I'm also familiar with the RTL and happy to walk through it in interviews.*
 
