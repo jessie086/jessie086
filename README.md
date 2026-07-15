@@ -6,13 +6,9 @@
 EE undergrad building toward VLSI physical design — from hand-floorplanned RISC-V datapaths to a NASA ground station listening for solar storms.
 
 ## Objective
-[Provide Objective - Remove this afterwards]]
-
 Rising senior in Electrical Engineering at the University of Michigan, pursuing a one-year MS before entering industry. I'm especially drawn to manual layout — the hands-on tradeoff between area, transistor sizing, and timing closure — and want to grow into a layout design engineer at a fabless company where PPA optimization on custom/critical-path blocks really matters. I'm also actively building depth in automated APR flows, and I'm looking for a summer 2027 internship to sharpen both.
 
 ## Skills
-[Provide skills and associated project. Make sure to hyperlink the project - Remove this afterwards]]
-
 | Skill                                         | Associated Project         |
 |-----------------------------------------------|----------------------------|
 | Manual layout & floorplanning (stick diagrams)| <a href="https://google.com">RISC-V Processor Design</a>|
@@ -27,8 +23,6 @@ Rising senior in Electrical Engineering at the University of Michigan, pursuing 
 
 
 ## Tools
-[Provide tools and break them down into categories. Use ChatGPT to help create the link - Remove this afterwards]]
-
 ### EDA/CAD
 <div>
     <img src="https://img.shields.io/badge/Cadence%20Virtuoso-D00000?style=for-the-badge" />
