@@ -38,33 +38,70 @@ Rising senior in Electrical Engineering at the University of Michigan, pursuing 
 
 ### Embedded / Hardware
 <div>
-    <img src="https://img.shields.io/badge/-Microsoft_Defender_for_Endpoint-00A4EF?&style=for-the-badge&logo=Microsoft&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Velociraptor-4B275F?&style=for-the-badge&logo=Velociraptor&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Arduino-2E3440?style=for-the-badge&logo=Arduino&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Raspberry_Pi-2E3440?style=for-the-badge&logo=RaspberryPi&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Oscilloscope-4C566A?style=for-the-badge" />
+    <img src="https://img.shields.io/badge/-SMD_Soldering-4C566A?style=for-the-badge" />
 </div>
-Arduino · Raspberry Pi · Oscilloscope · SMD Soldering
 
 ### Languages / Scripting
 <div>
-    <img src="https://img.shields.io/badge/-Microsoft_Sentinel-0078D4?&style=for-the-badge&logo=Microsoft&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Splunk-000000?&style=for-the-badge&logo=Splunk&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Elastic-005571?&style=for-the-badge&logo=Elastic&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Python-005F73?style=for-the-badge&logo=Python&logoColor=white" />
+    <img src="https://img.shields.io/badge/-MATLAB-005F73?style=for-the-badge&logo=MathWorks&logoColor=white" />
+    <img src="https://img.shields.io/badge/-C%2F%2B%2B-0A9396?style=for-the-badge&logo=C%2B%2B&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Java-0A9396?style=for-the-badge&logo=OpenJDK&logoColor=white" />
+    <img src="https://img.shields.io/badge/-SQL-0A9396?style=for-the-badge&logo=MySQL&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Tcl-0A9396?style=for-the-badge" />
 </div>
-Python · MATLAB · C/C++ · Java · SQL · Tcl
 
 ## Relevant Coursework
-[Provide certifications that you have obtained. Use ChatGPT to help create the link - Remove this afterwards]]
-<div>
-<img src="https://img.shields.io/badge/-Security%2B-FF0000?&style=for-the-badge&logo=CompTIA&logoColor=white" />
-<img src="https://img.shields.io/badge/-Network%2B-007ACC?&style=for-the-badge&logo=CompTIA&logoColor=white" />
-<img src="https://img.shields.io/badge/-A%2B-4D4D4D?&style=for-the-badge&logo=CompTIA&logoColor=white" />
-<img src="https://img.shields.io/badge/-CDSA-006400?&style=for-the-badge&logoColor=white" />
-<img src="https://img.shields.io/badge/-CCD-000080?&style=for-the-badge&logoColor=white" />
-</div>
 
-VLSI Design · Embedded Control Systems · Analog & Digital IC Design · Logic Design · Signals & Systems · Electromagnetics · Semiconductor Devices · Data Structures & Algorithms (281) · [370 course name once complete]
+**`Circuit & Device Design`**
+Analog & Digital IC Design · Semiconductor Devices · Logic Design
+ 
+**`VLSI & Systems`**
+VLSI Design · Embedded Control Systems · Signals & Systems · Electromagnetics
+ 
+**`Computer Science Foundations`**
+Data Structures & Algorithms (EECS 281) · Computer Organization (EECS 370)
 
-TODO: look up what certificiates i could do to strenghten myself as a candidate
+TODO: look up what certificiates i could do to strengthen myself as a candidate
 
-## Projects
-- Detection Lab
-- SOC Automation Project
+## Featured Projects
+ 
+*[Guidance: 1-2 sentence hook per project + link to its dedicated page. Order by relevance to layout/APR — RISC-V first.]*
+ 
+### 🔧 [RISC-V Processor — Layout & APR](link)
+Two-stage pipelined RISC-V datapath, hand-floorplanned in Cadence with a Kogge-Stone ALU and hierarchical APR flow. Closed timing with zero setup/hold violations at 90% core density.
+**[View project →](link)**
+ 
+### 📡 [NASA SunRISE Ground Station — Electrical Lead](link)
+Leading a 10-person team building ground-based radio antenna arrays to detect solar bursts ahead of space-weather events threatening NASA hardware.
+**[View project →](link)**
+ 
+### 🔋 [Solar Car BMS Protection Circuit](link)
+Designed and validated a reverse-polarity/overcurrent protection circuit now standard across the team's PCBs — <1W added dissipation.
+**[View project →](link)**
+ 
+### 🧫 [Sartorius Incucyte Redesign](link)
+Contributing to sensor/controls design for a live-cell imaging incubator requiring tight temperature and humidity control.
+**[View project →](link)**
+ 
+### 🚗 [EECS 461 — Embedded Cruise Control](link)
+PI closed-loop controller with CAN bus communication, built and validated in MATLAB/Simulink + hardware bench testing.
+**[View project →](link)**
+ 
+[Consider cutting to your top 3-4 if the page feels long — quality over completeness]
+ 
+---
+ 
+## Education
+ 
+**University of Michigan** — B.S. Electrical Engineering, Aug 2023 – Dec 2026 · GPA 3.6/4.0
+*(MS program, 2026–2027)*
+ 
+---
+ 
+## Let's Connect
+ 
+Open to summer 2027 internships and full-time roles in VLSI physical design / layout. Reach out via [LinkedIn](https://linkedin.com/in/jchen00) or [email](mailto:jessich@umich.edu).
