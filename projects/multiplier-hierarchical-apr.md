@@ -52,4 +52,4 @@ Verified physical correctness across the full hierarchical layout with DRC (desi
 *Draft:* This project was a useful contrast to the RISC-V ALU I hand-laid out on the same team: the multiplier's size and regularity made automation the right call, whereas the ALU's smaller, timing-critical structure rewarded manual attention. Working both taught me that "hand layout vs. APR" isn't really a philosophical preference — it's a decision that depends on the structure you're laying out, and I want to keep building judgment on when each approach actually pays off.
 
 ---
-[← Back to main portfolio](../README.md) · [See the RISC-V datapath project →](project_riscv.md)
+[← Back to main portfolio](../README.md) · [See the RISC-V datapath project →](/riscv-layout-apr.md)
