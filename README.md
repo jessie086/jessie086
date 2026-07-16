@@ -17,9 +17,9 @@ Rising senior in Electrical Engineering at the University of Michigan, pursuing 
 | Transistor sizing & speedpath analysis (HSPICE)      | <a href="projects/riscv-layout-apr.md">RISC-V Processor Design</a>|
 | Hierarchical APR (black-boxed modules)                   | <a href="projects/multiplier-hierarchical-apr.md">16×16 Multiplier — Systolic Array</a>|
 | Analog/digital circuit design & PCB layout (Altium) | <a href="projects/bms-protection-circuit.md">Solar Car BMS Protection Circuit</a> |
-| RF/antenna systems & signal integrity | NASA SunRISE Ground Station |
+| RF/antenna systems & signal integrity | <a href="projects/sunrise-ground-station.md">Solar Car BMS Protection Circuit</a> |
 | Embedded controls (I2C, PWM, sensor-to-actuator control loops) | <a href="projects/sartorius-incucyte-redesign.md">Sartorius Incucyte</a> |
-| Team & project leadership | NASA SunRISE Ground Station |
+| Team & project leadership | <a href="projects/sunrise-ground-station.md">Solar Car BMS Protection Circuit</a> |
 
 
 ## Tools
