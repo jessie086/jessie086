@@ -60,8 +60,6 @@ VLSI Design · Embedded Control Systems · Signals & Systems · Electromagnetics
 **`Computer Science Foundations`**
 Data Structures & Algorithms (EECS 281) · Computer Organization (EECS 370)
 
-TODO: look up what certificiates i could do to strengthen myself as a candidate
-
 ## Featured Projects
 
 ### 🔧 [RISC-V Processor — Layout & APR](projects/riscv-layout-apr.md)
