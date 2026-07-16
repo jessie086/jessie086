@@ -1,7 +1,7 @@
 ## Hi, I'm Jia-Yu Chen 👋
 <a href="https://linkedin.com/in/jchen00"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-<a href="mailto:jessich@umich.edu"><img src="https://img.shields.io/badge/-email-2E3440?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-<a href="mailto:jessich@umich.edu"><img src="https://img.shields.io/badge/-resume-D00000?&style=for-the-badge&logo=linkedin&logoColor=white" />    
+<a href="mailto:jessich@umich.edu"><img src="https://img.shields.io/badge/-email-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="https://github.com/jessie086/jessie086/blob/main/Jia-Yu-Chen-Resume.pdf"><img src="https://img.shields.io/badge/-resume-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>    
 
 EE undergrad building toward VLSI physical design — from hand-floorplanned RISC-V datapaths to a NASA ground station listening for solar storms.
 
@@ -13,13 +13,13 @@ Rising senior in Electrical Engineering at the University of Michigan, pursuing 
 |-----------------------------------------------|----------------------------|
 | Manual layout & floorplanning (stick diagrams)| <a href="projects/riscv-layout-apr.md">RISC-V Processor Design</a>|
 | Place & Route (Cadence Innovus, .tcl scripting)| <a href="projects/riscv-layout-apr.md">RISC-V Processor Design</a>|
-| DRC/LVS verification | <a href="projects/riscv-layout-apr.md">RISC-V Processor Design</a>|
-| Transistor sizing & speedpath analysis (HSPICE) | <a href="projects/riscv-layout-apr.md">RISC-V Processor Design</a>|
-| Hierarchical APR (black-boxed modules) | <a href="projects/multiplier-hierarchical-apr.md">16×16 Multiplier — Systolic Array</a>|
+| DRC/LVS verification         | <a href="projects/riscv-layout-apr.md">RISC-V Processor Design</a>|
+| Transistor sizing & speedpath analysis (HSPICE)      | <a href="projects/riscv-layout-apr.md">RISC-V Processor Design</a>|
+| Hierarchical APR (black-boxed modules)                   | <a href="projects/multiplier-hierarchical-apr.md">16×16 Multiplier — Systolic Array</a>|
 | Analog/digital circuit design & PCB layout (Altium) | <a href="projects/bms-protection-circuit.md">Solar Car BMS Protection Circuit</a> |
-| RF/antenna systems & signal integrity | <a href="projects/sunrise-ground-station.md">NASA SunRISE Ground Station</a> |
-| Embedded controls (I2C, PWM, interrupt-driven CAN) |  <a href="projects/sartorius-incucyte-redesign.md">Sartorius Incucyte</a> / EECS 461 Cruise Control |
-| Team & project leadership | <a href="projects/sunrise-ground-station.md">NASA SunRISE Ground Station</a> |
+| RF/antenna systems & signal integrity | NASA SunRISE Ground Station |
+| Embedded controls (I2C, PWM, sensor-to-actuator control loops) | <a href="projects/sartorius-incucyte-redesign.md">Sartorius Incucyte</a> |
+| Team & project leadership | NASA SunRISE Ground Station |
 
 
 ## Tools
@@ -80,14 +80,10 @@ Leading a 10-person team building ground-based radio antenna arrays to detect so
 Designed and validated a reverse-polarity/overcurrent protection circuit now standard across the team's PCBs — <1W added dissipation.
 **[View project →](projects/bms-protection-circuit.md)**
  
-### 🧫 [Sartorius Incucyte Redesign](link)
+### 🧫 [Sartorius Incucyte Redesign](projects/sartorius-incucyte-redesign.md)
 Contributing to sensor/controls design for a live-cell imaging incubator requiring tight temperature and humidity control.
 **[View project →](projects/sartorius-incucyte-redesign.md)**
  
-### 🚗 [EECS 461 — Embedded Cruise Control](link)
-PI closed-loop controller with CAN bus communication, built and validated in MATLAB/Simulink + hardware bench testing.
-**[View project →](link)**
-
 ---
  
 ## Education
