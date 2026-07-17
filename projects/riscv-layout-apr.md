@@ -27,7 +27,7 @@ This was my first deep dive into the area/timing/power tradeoff that hand layout
 ## Design Process
 
 **1. Architecture & Datapath Planning**
-*[Sketch: block diagram of the two-stage pipeline — register file, ALU, shifter, PC, control unit]*
+![Two-stage pipeline block diagram showing Fetch and Execute stages, with predicted vs. measured critical path highlighted](images/riscv-architecture.png)
 Before any layout work, I mapped out the datapath at a block level to understand how data would flow through the two pipeline stages and where the critical timing path was likely to live.
 
 **2. Manual Layout — Kogge-Stone ALU**
