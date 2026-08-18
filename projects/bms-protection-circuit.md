@@ -3,6 +3,8 @@
 
 > Redesigned the dashboard PCB and led development of a reverse-polarity / overvoltage protection circuit for the team's 12V electrical system — later adopted as a standard feature on future team PCBs.
 
+**Skills demonstrated:** PCB design (Altium Designer) · protection circuit design (Schottky/Zener) · 555 timer & RC design · hand SMD assembly · bench validation & fault injection · systematic hardware debugging
+
 | | |
 |---|---|
 | 🔻 **25%** smaller | Dashboard PCB footprint |
@@ -70,10 +72,6 @@ Tested the protection circuit standalone, before it ever touched the MCU:
 **Protection vs. power cost.** Since `P = V_F × I`, minimizing the Schottky's forward voltage was the lever that kept the circuit in budget. The real question wasn't just *"does it protect the board?"* — it was *"what does that protection cost us?"*
 
 **A correct schematic isn't a working board.** Footprints, orientation, placement, and soldering quality all determine whether a design actually functions — and debugging systematically (inspect → measure → isolate → verify → fix → retest) beats guessing.
-
-## Skills & Tools
-
-Altium Designer (schematic + PCB layout) · protection circuit design (Schottky reverse-polarity, Zener overvoltage) · 555 timer / RC design · hand SMD assembly · bench validation (bench supply, multimeter, fault injection)
 
 ---
 
