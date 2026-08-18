@@ -1,57 +1,96 @@
-# NASA SunRISE — Electrical Team Lead
-*HelioPhysics Ground Lab · Jan 2025 – Present · Leading a 10-person subteam within a 30-member lab*
+# NASA SunRISE Ground Radio Lab — Electrical Team Lead
 
-## Objective
+*HelioPhysics Ground Lab, University of Michigan · Jan 2025 – Present*
 
-SunRISE is a NASA CubeSat mission studying solar activity — but severe solar storms (coronal mass ejections) can knock out spacecraft electronics, costing NASA huge sums to repair or replace. Our lab builds ground-based Long-Wavelength Array (LWA) antennas at Peach Mountain Observatory to detect and classify solar radio bursts (5–85 MHz), with the long-term goal of predicting bursts early enough to warn NASA before damage occurs. As electrical team lead, I run a 10-person subteam split across interferometry, GPS timing, and calibration — coordinating hardware deployment, data collection, and documentation for 26 partner high schools building their own antenna kits.
+I lead a 10-person electrical subteam (grown from 5) building a ground-based radio telescope network that supports NASA's SunRISE CubeSat mission. My work spans RF hardware bring-up, field deployment, GNSS-based interferometry, and technical leadership across a 30-person interdisciplinary lab.
 
-## Skills Learned
-
-- Technical project leadership — coordinating a multi-group subteam within a larger cross-functional lab (electrical, mechanical, software, science)
-- RF/antenna systems and signal integrity across a 5–85 MHz collection range
-- GPS timing/positioning hardware (Trimble NetRS receiver, Zephyr Base-3 antenna) for interferometry synchronization
-- Field deployment and raw data collection (.T00 GPS datasets) at a real observatory site
-- Cross-team technical communication — translating in-progress R&D into documentation usable by high school students with no prior background
-- Meeting cadence and async task tracking (weekly execution meetings, Slack-based tracking) for a distributed team
-
-## Tools Used
-
-- Long-Wavelength Array (LWA) antenna hardware
-- Trimble NetRS GPS receiver + Trimble Zephyr Base-3 antenna
-- Total station (used as a synchronization reference across antennas)
-- Slack (team coordination)
-
-## Project Overview
-
-**1. Ground Station Setup**
-*[Photo/diagram: Peach Mountain Observatory antenna setup, if shareable — or a simple site diagram]*
-Advanced a Michigan-based LWA ground station collecting solar radio data across 5–85 MHz, aimed at burst detection and downstream ML classification. Currently have 2 antennas set up on-site; one is fully operational, the other is still being brought to a robust, stable connection state.
-
-**2. Interferometry & GPS Timing**
-*[Diagram: how interferometry combines multiple antenna signals into a synthesized "disc," if you want to illustrate the concept]*
-Led the GPS timing subgroup, which supplies the precise positioning data needed to synchronize multiple LWA antennas into a single interferometric array — recreating in the ground lab what SunRISE's six CubeSats do in space. After configuring the Trimble receiver/antenna pair and testing at Peach Mountain, we collected .T00 GPS timestamp data; I'm currently leading post-processing work to extract the angular and timing differences between antenna locations.
-
-**3. Field Deployment**
-Configured field deployment logistics at Peach Mountain Observatory and defined the post-processing pipeline for extracting inter-antenna timing and geometry data from raw .T00 files.
-
-**4. Documentation for Partner High Schools**
-Produced installation documentation enabling 26 partner high schools to assemble antenna kits independently — required translating still-evolving R&D processes into instructions clear enough for students with no background in RF systems, including anticipating common failure points and troubleshooting steps.
-
-**5. Team Leadership**
-Grew the electrical subteam from 5 to 10 engineers over the past year and a half. I run weekly subteam meetings to track progress across three working groups (interferometry, GPS, calibration), coordinate with the other four subteams (system integration, mechanical, software, science), and manage task tracking via Slack.
-
-## Results
-
-- Grew electrical subteam **5 → 10 engineers**
-- Delivered installation documentation adopted by **26 partner high schools**
-- Established working GPS timing pipeline (.T00 collection) as the foundation for multi-antenna interferometry
-- 1 of 2 deployed LWA antennas fully operational and collecting data across the full 5–85 MHz target range
-
-## Reflection
-
-*[Optional — draft below, edit freely]*
-
-*Draft:* Leading this subteam taught me as much about technical communication as it did about RF systems — writing documentation that a high schooler with zero background could follow forced me to actually understand *why* each step mattered, not just that it worked. It's also given me a much better sense of how individual hardware pieces (GPS timing, antenna calibration, interferometry) fit into a much larger mission-level goal.
+**Skills demonstrated:** RF signal chain debugging · antenna hardware · connector/cable fabrication · GNSS positioning & timing · systems-level troubleshooting · technical documentation · cross-functional leadership · root-cause analysis
 
 ---
-[← Back to main portfolio](../README.md)
+
+## Impact at a Glance
+
+| | |
+|---|---|
+| **Team growth** | Grew electrical subteam from 5 → 10 engineers |
+| **Hardware deployed** | 2 crossed-dipole RF antenna systems, fully assembled and field-verified at Peach Mountain Observatory |
+| **Reach** | 26 partner high schools running antenna kits I helped document |
+| **Diagnostic win** | Root-caused an intermittent RF failure to a connector-fabrication process; fixed it system-wide with a standardized tool and procedure |
+| **R&D in progress** | Leading GNSS positioning work and evaluating a new SDR-based receiver architecture for polarization/interferometry measurements |
+
+---
+
+## The Project
+
+NASA's SunRISE mission uses a CubeSat constellation to study solar radio bursts from space. Our lab builds the ground-based complement: a network of antennas observing the same phenomena from 5–85 MHz, a band the ionosphere makes hard to see from space but that ground stations can access directly.
+
+The long-term goal isn't just detecting bursts — it's localizing where they originate, tying them to solar energetic events, and eventually combining geographically distributed antennas into an interferometric array.
+
+**Signal chain:** Solar emission → crossed-dipole antenna → LWA front-end/active balun → coax → RF filtering/up-conversion → CALLISTO receiver → acquisition software → dynamic spectrum
+
+---
+
+## What I Own
+
+- **Team leadership** — run weekly execution meetings, track workstreams across 10 engineers, review purchase requests and trade studies, coordinate with mechanical/software/science teams
+- **Field deployment** — antenna assembly, RF cable routing/termination, front-end and receiver integration, on-site bring-up and debugging at Peach Mountain Observatory
+- **Interferometry R&D** — researching antenna geometry, timing synchronization, and calibration requirements to combine multiple ground stations into a single measurement system
+- **GNSS positioning** — leading the effort to precisely geolocate each antenna (required to compute interferometric baselines) using a Trimble Zephyr Base-3 / NetRS setup
+- **Documentation & outreach** — writing installation procedures that non-RF-background high school students can follow correctly, supporting 26 partner schools
+
+---
+
+## Case Study: Root-Causing an Intermittent RF Failure
+
+**Problem:** A fully assembled antenna system — antenna, cables, front end, receiver, software — produced no usable signal. All components had been independently validated by their manufacturers, so the fault had to be in our own assembly.
+
+**Approach:**
+1. Ruled out software and known-good hardware through component swaps and repeated bring-up across multiple field tests
+2. Narrowed scope to the one thing we built ourselves: cable/connector terminations
+3. Used a multimeter in continuity mode to test the cable-to-adapter interface — expected near-zero resistance, measured an open circuit
+4. Formed and tested a hypothesis: re-exposed more conductor and reassembled the connector — continuity restored
+
+**Root cause:** We weren't using the standardized cable-preparation tool for that connector type, so exposed-conductor length varied by whoever assembled it — an inconsistent, unrepeatable process.
+
+**Fix:** Rather than patch the one antenna, I submitted a purchase request for the proper prep tool and updated our build procedure, turning a one-off repair into a repeatable process that reduces field-debugging time on every future build.
+
+This is the debugging pattern I default to: **observe → isolate → measure → test hypothesis → find root cause → fix the process, not just the instance.**
+
+---
+
+## Current R&D
+
+**GNSS Positioning for Interferometry**
+Interferometry requires knowing exact antenna positions to compute baseline geometry between sites. I'm leading this effort with a Trimble Zephyr Base-3 antenna and NetRS receiver. When the receiver's config interface conflicted with the university network, I set up a dedicated hotspot and worked through configuration via terminal tools — now collecting raw `.T00` GNSS data at 15-second intervals, with position/timing post-processing in progress.
+
+**Next-Gen Receiver Architecture**
+Our current receiver outputs intensity-only dynamic spectra. I'm evaluating an SDRplay RSPdx-R2-based architecture to determine whether it can preserve the richer channel information (phase, polarization) needed for future interferometric and polarization measurements — currently under project-level review.
+
+---
+
+## Status
+
+| Area | Status |
+|---|---|
+| Crossed-dipole antennas | 2 deployed at Peach Mountain Observatory |
+| RF data acquisition | Operational |
+| GNSS positioning | Data collection established; post-processing in progress |
+| Interferometry research | Active |
+| New receiver architecture | Under review |
+| High-school network | 26 partner schools |
+| Next deployment | Marquette High School field trip |
+
+---
+
+## Why This Project
+
+This project taught me that hardware systems fail at the *intersection* of disciplines, not in isolation — the connector failure looked electrical but was really a manufacturing process problem. Good engineering isn't just getting something to work once; it's making it repeatable, testable, and deployable by someone else.
+
+## Links
+
+- [SunRISE Mission](https://sunrise.umich.edu/)
+- [University of Michigan HelioPhysics Ground Lab](https://heliophysics.engin.umich.edu/)
+- [Long Wavelength Array](https://lwa.unm.edu/)
+
+---
+*[← Back to main portfolio](../README.md)*
